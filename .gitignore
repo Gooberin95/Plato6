@@ -1,0 +1,23 @@
+.states
+.web
+# Reflex
+.web/
+.states/
+assets/external/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Frontend / OS
+node_modules/
+*.log
+.DS_Store
+.idea/
+.vscode/
