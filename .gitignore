@@ -21,3 +21,6 @@ node_modules/
 .DS_Store
 .idea/
 .vscode/
+
+# CI output. The workflow rebuilds this directory.
+deploy-package/

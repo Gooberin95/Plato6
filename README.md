@@ -39,6 +39,10 @@ reflex run
 
 Open [http://localhost:3000](http://localhost:3000). The changelog is at [http://localhost:3000/changelog](http://localhost:3000/changelog). Reflex also starts its backend on port 8000; use the frontend URL above. If port 3000 is already taken, the terminal prints the port it chose. Stop the server with Ctrl+C.
 
+## Deploying to Azure
+
+The site can be deployed to Azure App Service on Linux with the built-in Python 3.14 runtime. GitHub Actions builds the Reflex frontend and packages it. Staging and production deploys stay off until the repository variable `AZURE_DEPLOY_ENABLED` is `true`. The setup steps are in [DEPLOY.md](DEPLOY.md).
+
 ## Fonts
 
 Syne and Outfit are included under `assets/fonts/` and licensed under the SIL Open Font License. See `assets/fonts/Syne-OFL.txt` and `assets/fonts/Outfit-OFL.txt`.
